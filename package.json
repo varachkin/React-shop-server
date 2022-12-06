@@ -2,7 +2,7 @@
   "name": "junior-test-endpoint",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
     "build": "tsc build --output public",
     "start": "node dist/main.js",

@@ -13,7 +13,7 @@ const app = express();
 
 server.start().then( () => {
     server.applyMiddleware({ app });
-    app.get("*", (_: any, res: { redirect: (arg0: string) => void; }) => {
+    app.get("*", (_, res) => {
         res.redirect("/graphql");
     });
 
