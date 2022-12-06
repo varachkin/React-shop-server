@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
-    "build": "tsc",
-    "start": "node index.ts",
+    "build": "tsc build --output public",
+    "start": "node dist/main.js",
     "dev": "concurrently \"tsc -w\" \"nodemon dist/main.js\""
   },
   "keywords": [],
